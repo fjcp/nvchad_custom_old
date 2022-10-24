@@ -44,4 +44,11 @@ return {
   ["skywind3000/asyncrun.vim"] = {},
   -- remove plugin
   -- ["hrsh7th/cmp-path"] = false,
+
+  ["simrat39/rust-tools.nvim"] ={
+    after = "nvim-lspconfig",
+    config = function()
+      require ("rust-tools").setup()
+    end,
+  },
 }
