@@ -51,4 +51,14 @@ return {
       require ("rust-tools").setup()
     end,
   },
+
+  ["folke/trouble.nvim"] ={
+    config = function()
+      require ("trouble").setup()
+    end,
+  },
+
+  ["weilbith/nvim-code-action-menu"] ={
+    cmd = "CodeActionMenu",
+  },
 }
