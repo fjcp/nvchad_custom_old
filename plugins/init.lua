@@ -21,10 +21,6 @@ return {
     override_options = overrides.mason,
   },
 
-  ["kyazdani42/nvim-tree.lua"] = {
-    override_options = overrides.nvimtree,
-  },
-
   -- Install a plugin
   ["max397574/better-escape.nvim"] = {
     event = "InsertEnter",
