@@ -23,6 +23,7 @@ M.mason = {
     "cmake-language-server",
     "pyright",
     "rust-analyzer",
+    "black",
   },
 }
 
