@@ -57,5 +57,26 @@ return {
   ["weilbith/nvim-code-action-menu"] ={
     cmd = "CodeActionMenu",
   },
+
   ["RRethy/vim-illuminate"] = {},
+
+  ["mfussenegger/nvim-dap"] = {},
+
+  ["theHamsta/nvim-dap-virtual-text"] = {
+    config = function()
+      require("nvim-dap-virtual-text").setup()
+    end,
+  },
+
+  ["rcarriga/nvim-dap-ui"] = {
+    config = function()
+      require("dapui").setup()
+    end,
+  },
+
+  ["mfussenegger/nvim-dap-python"] = {
+    config = function()
+      require('dap-python').setup('~/.virtualenvs/debugpy/bin/python')
+    end,
+  },
 }
